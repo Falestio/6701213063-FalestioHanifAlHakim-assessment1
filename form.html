@@ -7,15 +7,16 @@
     <title>Form HTML</title>
 </head>
 <body>
-    <form action="process.php">
-        <input type="number">
-        <input type="number">
+    <form action="process.php" method="post">
+        <input type="number" name="number1">
+        <input type="number" name="number2">    
         <select name="operator" id="operator">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="/">/</option>
             <option value="*">*</option>
         </select>
+        <input type="submit" value="Jalankan">
     </form>
 </body>
 </html>
